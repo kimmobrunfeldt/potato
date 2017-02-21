@@ -1,0 +1,35 @@
+{
+  "name": "potato",
+  "version": "1.0.0",
+  "description": "Potate as a Service.",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint **/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kimmobrunfeldt/potato.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kimmobrunfeldt/potato/issues"
+  },
+  "homepage": "https://github.com/kimmobrunfeldt/potato#readme",
+  "dependencies": {
+    "aws-sdk": "^2.7.1",
+    "bluebird": "^3.4.6",
+    "dotenv": "^2.0.0",
+    "node-uuid": "^1.4.7",
+    "request": "^2.78.0",
+    "request-promise": "^4.1.1",
+    "serverless-plugin-stage-variables": "^1.6.6",
+    "sharp": "^0.16.2"
+  },
+  "devDependencies": {
+    "eslint": "^3.10.1",
+    "eslint-config-airbnb-base": "^10.0.1",
+    "eslint-plugin-import": "^2.2.0"
+  }
+}
